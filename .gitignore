@@ -1,0 +1,12 @@
+# Exclude unrelated personal files at the root — not part of this project
+Mohd_Zaid_Hassan_Khan_Resume.pdf
+Mohd_Zaid_Hassan_Khan_Resume.tex
+node_modules
+package.json
+package-lock.json
+.DS_Store
+
+# Just in case any node_modules/.env sneak in anywhere
+**/node_modules
+**/.env
+**/dist
